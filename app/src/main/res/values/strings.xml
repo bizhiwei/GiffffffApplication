@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GiffffffApplication</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <array name="menu_date">
+        <item>设置</item>
+        <item>查看作品</item>
+        <item>清除缓存</item>
+    </array>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/item_height"
+    android:minHeight="@dimen/item_height">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_height"
+        android:layout_margin="6dp"
+        android:minHeight="@dimen/item_height">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_height">
+
+            <ImageView
+                android:id="@+id/item_layout_iv_bg"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_height" />
+
+            <TextView
+                android:id="@+id/item_layout_tv_intr"
+                android:layout_width="match_parent"
+                android:background="#ccc"
+                android:layout_height="@dimen/tv_height"
+                android:layout_alignParentBottom="true"
+                android:gravity="center" />
+
+            <View
+                android:layout_width="@dimen/point_height"
+                android:layout_height="@dimen/point_height"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="6dp"
+                android:background="@drawable/three_point" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
